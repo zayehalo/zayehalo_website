@@ -1,0 +1,311 @@
+body #main-content  {
+  font-size: .75em;
+  color: lightgrey;
+  background-color: #333333;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight : 200;
+  text-align: left;
+  padding: 0px;
+}
+
+.border-gradient {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+}
+.border-gradient-teal {
+  border-image-source: linear-gradient(to left, #F7D330, #27dbc2);
+}
+
+
+/*about image*/
+.img-fluid{ 
+  max-width: 100%; 
+  height: auto;
+}
+
+.color-y {color: #F7D330;}
+.color-p {color: #de2dfa;}
+.color-t {color: #27dbc2;}
+.color-w {color: #ffffff;}
+.color-dg {color: #6d7473;}
+.color-lg {color: #8f9c9a;}
+
+
+/*Social sidebar*/
+.sticky-container{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    right:-130px;
+    top:230px;
+    width:210px;
+    z-index: 1100;
+}
+.sticky li{
+    list-style-type:none;
+    background-color:#ffffff00;
+    color:#efefef;
+    height:43px;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+}
+.sticky li:hover{
+    margin-left:-115px;
+}
+.sticky li img{
+    float:left;
+    margin:5px 4px;
+    margin-right:5px;
+}
+.sticky li p{
+    padding-top:5px;
+    margin:0px;
+    line-height:16px;
+    font-size:11px;
+}
+.sticky li a p{
+    text-decoration:none;
+    color:#8f9c9a;
+}
+.sticky li a p:hover{
+    text-decoration:underline;
+}
+
+/*end social sidebar*/
+
+/** HEADER **/
+
+header img .goog-te-gadget{
+  visibility: hidden;
+  background-color: #ffffff00;
+}
+
+.goog-te-gadget-simple .goog-te-menu-value span{
+  color: rgba(255,255,255,.5);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: .75em;
+  text-align: center;
+  
+}
+
+#google_translate_element {
+  -webkit-appearance: button-bevel;
+}
+
+.goog-te-banner {
+    margin: 0;
+    background-color: #e4effb01;
+    overflow: hidden;
+}
+
+.goog-te-banner  {
+  
+}
+
+header .navbar{ 
+  background-color: #333333;
+  border-bottom: 1px solid #8f9c9a;
+
+}
+
+header .navbar div{
+  background-color: #ffffff00;
+    border-bottom: 0px;
+    font-size: 1em;
+}
+header .navbar div .goog-te-gadget-simple {
+  border: 1px #8f9c9a;
+}
+
+
+nav.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size:  1em;
+  margin-right: 30px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+
+.navbar .navbar-brand img {
+    max-height: 50px;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    /*background-image: radial-gradient(circle closest-side,#ffffff, #F7D330 65% , #27dbc2,  #333333);*/
+    background-color: white;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* END HEADER */
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  color: black;
+  background: #333333;
+  text-shadow: #F7D330 0px 0px 5px, #F7D330 0px 0px 10px, #F7D330 0px 0px 15px, 
+  #27dbc2 0px 0px 20px, #27dbc2 0px 0px 30px, #27dbc2 0px 0px 40px, 
+  #27dbc2 0px 0px 50px, #27dbc2 0px 0px 75px;
+  padding-top: 7vw;
+  padding-bottom: 5vw;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+}
+
+h5 {
+  font-weight: 400;
+  font-size: 1.25em;
+  text-align: left;
+  color: white;
+  background: #333333;
+  text-shadow: #F7D330 0px 0px 5px, #F7D330 0px 0px 10px, #F7D330 0px 0px 15px, 
+  #27dbc2 0px 0px 20px, #27dbc2 0px 0px 30px, #27dbc2 0px 0px 40px, 
+  #27dbc2 0px 0px 50px, #27dbc2 0px 0px 75px;
+}
+
+footer div.row {
+  display: block;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: -webkit-linear-gradient(#333333, #27dbc2,#F7D330 20%,#27dbc2, #333333);
+  /*position: sticky-bottom;*/
+  color: #F7D330;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1em;
+  font-weight: 200;
+  text-align: center;
+}
+
+footer img {
+  max-height: 50px;
+}
+.copyright {
+  color: black;
+  font-size: .75vw;
+  padding-top: 5px;
+}
+/* END FOOTER */
+
+
+
+/* HOME PAGE */
+
+/* END HOME PAGE */
+
+
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  
+  /* End Header */
+
+  /* Home Page */
+  
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+ .goog-te-gadget-simple {
+    background-color: #ffffff00;
+    border-left: 1px solid #ffffff00;
+    border-top: 1px solid #ffffff00;
+    border-bottom: 1px solid #ffffff00;
+    border-right: 1px solid #ffffff00;
+    font-size: 10pt;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    cursor: pointer;
+    zoom: 1;
+    display: flex;
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
+header .navbar div{
+    background-color: #333333;
+    border-bottom: 0px;
+    font-size: 12px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size:  11px;
+  margin-right: 30px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+#first-row {
+  padding-top: 45px;
+}
+  /* End Header */
+
+  /* Footer */
+ 
+  /* End Footer */
+
+  /* Home Page */
+  
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  
+  /* End Header */
+  
+  /* Home page */
+ 
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
+
+
+
